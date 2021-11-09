@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{0c354a9c-c3cc-4e96-b623-9b26d5789433}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{a902a273-c83e-4d0b-a736-6cdf826c5e6c}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="50%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{951277e8-181c-401a-bb55-7d44cd97195f}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{0bacafdc-6a8e-46c1-81d5-3ca50aa77903}">
+                        <labels>
+                          <label description="Event Name" languagecode="1033" />
+                        </labels>
+                        <control id="msftce_eventname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msftce_eventname" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{abe2890f-5a76-42e1-8b2f-d4fbc82e3429}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Primary Contact" languagecode="1033" />
+                        </labels>
+                        <control id="msftce_primarycontact" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msftce_primarycontact" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{788d9c75-e584-453b-a066-314740ff6a4b}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Estimated Budget" languagecode="1033" />
+                        </labels>
+                        <control id="msftce_estimatedbudget" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="msftce_estimatedbudget" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="50%">
+              <sections>
+                <section name="_section_846" id="5b3815bc-e407-4bb7-8b8d-ae78671c2707" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{8a81c278-58b7-462b-8d60-a0dd2ffdaaaa}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Date of the Event" languagecode="1033" />
+                        </labels>
+                        <control id="msftce_dateoftheevent" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="msftce_dateoftheevent" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d0c924c5-40de-416b-8929-11eec6d0d46d}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Duration" languagecode="1033" />
+                        </labels>
+                        <control id="msftce_duration" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="msftce_duration" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{860de244-a3d1-42d8-9705-419c572b5c60}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Food Choices" languagecode="1033" />
+                        </labels>
+                        <control id="msftce_foodchoices" classid="{4AA28AB7-9C13-4F57-A73D-AD894D048B5F}" datafieldname="msftce_foodchoices" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{3c9442d3-f11f-41c2-a4fe-17c3119b3d8e}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{bd4d6ae1-6160-4fc5-be4b-38b461e7454c}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{388c3049-580a-4c52-9e22-b854e1fe3a94}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{06c5e1b4-8cb0-448e-9dd1-3a51e4d358a4}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{d868d92d-b180-4195-b457-34e49e8e59a4}" colspan="1" rowspan="1">
+              <labels>
+                <label description="Owner" languagecode="1033" />
+              </labels>
+              <control id="header_ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{4037ba7a-de50-4994-a937-dd143053bffe}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{3e0bd461-b63a-4a9d-99c1-d6ce8d23b9d4}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{87169a13-2032-4717-a8f1-1a7fe335df68}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{592ef8bc-db37-4fd1-8ace-f07629001be6}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>
